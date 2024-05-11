@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import Cookie from "js-cookie";
-import { BASE_URL } from "../services/helper";
+import { BASE_URL } from "../../services/helper";
 
 // Action for register
 export const userDetails = createAsyncThunk("userDetails", async () => {

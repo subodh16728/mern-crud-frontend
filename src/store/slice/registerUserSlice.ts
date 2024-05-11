@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk, PayloadAction } from "@reduxjs/toolkit";
 import axios from "axios";
 import { RegisterActionPayload, UserInitialState } from "../../utils/model";
-import { BASE_URL } from "../services/helper";
+import { BASE_URL } from "../../services/helper";
 
 // Action for register
 export const registerUser = createAsyncThunk("registerUser", async (data) => {

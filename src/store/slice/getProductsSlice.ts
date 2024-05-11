@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk, PayloadAction } from "@reduxjs/toolkit";
 import Cookie from "js-cookie";
 import axios from "axios";
 import { ProductInitialState, TotalProduct } from "../../utils/model";
-import { BASE_URL } from "../services/helper";
+import { BASE_URL } from "../../services/helper";
 
 // Action
 export const fetchProducts = createAsyncThunk("fetchProducts", async (search) => {
