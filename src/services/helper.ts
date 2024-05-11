@@ -1,0 +1,1 @@
+export const BASE_URL = "https://mern-crud-backend-cxw6.onrender.com"
